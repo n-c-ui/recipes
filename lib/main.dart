@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
     final ThemeData theme = ThemeData();
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Recipe Calculator',
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
-          primary: Colors.grey,
+          primary: Colors.orange,
           secondary: Colors.black,
         ),
       ),
